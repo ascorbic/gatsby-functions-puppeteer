@@ -4,6 +4,7 @@
   "description": "Test Gatsby Functions - Puppeteer",
   "main": "index.js",
   "dependencies": {
+    "@netlify/plugin-gatsby": "^0.0.2",
     "gatsby": "^3.7.0",
     "puppeteer": "^10.0.0",
     "react": "^17.0.2",
