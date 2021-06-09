@@ -106,3 +106,5 @@ dist
 
 public
 cache
+# Local Netlify folder
+.netlify
