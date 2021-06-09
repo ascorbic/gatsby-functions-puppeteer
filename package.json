@@ -4,13 +4,14 @@
   "description": "Test Gatsby Functions - Puppeteer",
   "main": "index.js",
   "dependencies": {
-    "@netlify/plugin-gatsby": "^0.0.2",
     "gatsby": "^3.7.0",
     "puppeteer": "^10.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@netlify/plugin-gatsby": "latest"
+  },
   "scripts": {
     "develop": "gatsby develop",
     "test": "echo \"Error: no test specified\" && exit 1"
